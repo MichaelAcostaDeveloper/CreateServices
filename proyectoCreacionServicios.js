@@ -1,10 +1,11 @@
 
 /*Este proyecto consiste en almacenar en un arreglo todos los servicios que realiza una empresa,
-  estos servicios se ingresan por teclado. Cada servicio se define de la siguiente manera:
+  estos servicios se ingresan por teclado. 
+  Cada servicio se define de la siguiente manera:
   numero de servicio, tipo de servicio(ingenieria, marketing, capacitacion), numero de participantes, estado(inicial, en proceso, terminado).
   Al final se imprime el arreglo con todos los servicios almacenados*/
 
-  //creacion de la funcion constructora
+//creacion de la funcion constructora, aqui se crea el objeto servicio
 function servicio(numero,tipo,participantes, estado){
     this.numero=numero;
     this.tipo=tipo;
